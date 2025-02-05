@@ -90,6 +90,7 @@ h1{
 
 .big_square{
     width: 60%;
+    position: relative;
 }
 
 .small_square{
@@ -118,8 +119,8 @@ span{
 }
 
 .jumbo_img{
-    background-size: contain;
-    max-width: 100%;
+    position: absolute;
+    max-width: 120%;
 }
 
 /* /jumbotron  */
