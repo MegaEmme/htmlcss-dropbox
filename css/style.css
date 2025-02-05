@@ -32,7 +32,7 @@ nav{
     align-items: center;
 }
 
-div > a{
+header a{
     text-decoration:none;
     color: black;
 }
@@ -58,6 +58,7 @@ div > a{
     background-color: #0061fe;
     color: white;
     padding: 5px 16px 5px 16px;
+    text-decoration: none;
 }
 
 .start{
@@ -107,7 +108,7 @@ p{
     padding: 16px;
 }
 
-span{
+.small_square > span{
     display: block;
     margin-top: 40px;
 }
@@ -193,12 +194,14 @@ h3{
     /* border: 1px solid red; */
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 0 50px;
 }
 
 .grid_element{
     width: calc(100%/3 -  36px);
-    border: 1px solid #d6d5d9;
+    border-top: 1px solid #d6d5d9;
+    border-left: 1px solid #d6d5d9;
+    border-right: 1px solid #d6d5d9;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -206,6 +209,81 @@ h3{
     gap: 4px;
     align-items: center;
 }
+
+.grid_element_bottom{
+    width: calc(100%/3 -  36px);
+    border: 1px solid #d6d5d9;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin: auto;    
+    gap: 4px;
+}
+
+h6{
+    font-size: 12px;
+    font-weight: lighter;
+    color: #6b727a;
+    margin-bottom: 50px;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+li > h5{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+li > a:hover{
+    background-color: #60abe7;
+}
+
+ul{
+    margin-bottom: 20px;
+}
+
+.prova_gratis{
+    background-color: #0061fe;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.prova_gratis:hover{
+    background-color: #60abe7;
+}
+
+.bottom_border{
+    padding-bottom: 40px;
+    border-bottom: 1px solid gray;
+}
+
+.margin_bottom{
+    margin-bottom: 100px;
+}
+
+.strong{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.check{
+    color: #0061fe;
+}
+
+
+
+
 
 
 
