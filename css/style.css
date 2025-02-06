@@ -127,6 +127,7 @@ p{
 .jumbo_img{
     position: absolute;
     max-width: 100%;
+    max-height: 140%;
 }
 
 /* /jumbotron  */
@@ -433,7 +434,7 @@ footer{
 
 .lang{
     position: absolute;
-    border-top: 2px solid white;
+    border-top: 1px solid white;
     padding-top: 20px;
     color: #999894;
 }
@@ -462,5 +463,6 @@ li > a {
     color: white;
     text-decoration: none;
 }
+
 /* /sezione footer */
 
