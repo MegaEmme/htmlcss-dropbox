@@ -368,6 +368,34 @@ ul{
     font-size: 12px;
 }
 
+#clients {
+    color: blue;
+}
+
+.grid_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.grid_2_elements{
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
+.grid_2_elements > img{
+    max-width: 100%;
+}
+
+.grid_2_elements > h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.grid_2_elements > p{
+    font-size: 12px;
+}
+
 
 
 
