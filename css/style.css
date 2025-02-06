@@ -148,7 +148,6 @@ p{
 main{
     width: 50%;
     margin: 0 auto;
-    height: 2500px;
 }
 
 h2{
@@ -368,10 +367,6 @@ ul{
     font-size: 12px;
 }
 
-#clients {
-    color: blue;
-}
-
 .grid_2{
     display: flex;
     justify-content: space-between;
@@ -396,10 +391,9 @@ ul{
     font-size: 12px;
 }
 
-
-
-
-
+#clients {
+    color: blue;
+}
 
 /* /sezione main */
 
@@ -409,5 +403,38 @@ ul{
 
 /* sezione footer */
 
+footer{
+    color: white;
+    border: 1px solid red;
+    background-color: black;
+    height: 500px;
+}
+
+.links{
+    border: 1px solid red;
+    width: 60%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.languages{
+    position: relative;
+    height: 50px;
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.lang{
+    position: absolute;
+    border-top: 2px solid white;
+    padding-top: 30px;
+    color: #999894;
+}
+
+.fa-earth-americas{
+    margin-right: 6px;
+}
 /* /sezione footer */
 
