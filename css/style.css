@@ -26,10 +26,11 @@ nav{
     right: 0;
     z-index: 1;
     background-color: white;
-    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;  
+    height: 6%;
+    border-bottom: 1px solid black;
 }
 
 header a{
@@ -50,7 +51,7 @@ header a{
     margin-right: 20px;
 }
 
-header a:hover{
+nav a:hover{
     border-bottom: 2px solid black;
 }
 
@@ -232,7 +233,7 @@ h3{
     margin-bottom: 50px;
 }
 
-li{
+main li{
     list-style: none;
     display: flex;
     gap: 5px;
@@ -244,7 +245,7 @@ li > h5{
     font-weight: 500;
 }
 
-li > a:hover{
+main li > a:hover{
     background-color: #60abe7;
 }
 
@@ -405,17 +406,21 @@ ul{
 
 footer{
     color: white;
-    border: 1px solid red;
     background-color: black;
-    height: 500px;
 }
 
 .links{
-    border: 1px solid red;
     width: 60%;
-    height: 100px;
     margin: 0 auto;
-    margin-top: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    gap: 30px;
+}
+
+.link{
+    width: calc(100% / 5);
 }
 
 .languages{
@@ -429,12 +434,33 @@ footer{
 .lang{
     position: absolute;
     border-top: 2px solid white;
-    padding-top: 30px;
+    padding-top: 20px;
     color: #999894;
 }
 
 .fa-earth-americas{
     margin-right: 6px;
+}
+
+.link span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+footer ul{
+    padding-top: 30px;
+}
+
+footer li {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
 }
 /* /sezione footer */
 
