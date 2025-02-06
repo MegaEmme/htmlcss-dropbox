@@ -202,7 +202,7 @@ h3{
 }
 
 .grid_element{
-    width: calc(100%/3 -  36px);
+    width: calc(100%/3 -  35px);
     border-top: 1px solid #d6d5d9;
     border-left: 1px solid #d6d5d9;
     border-right: 1px solid #d6d5d9;
@@ -215,7 +215,7 @@ h3{
 }
 
 .grid_element_bottom{
-    width: calc(100%/3 -  36px);
+    width: calc(100%/3 -  35px);
     border: 1px solid #d6d5d9;
     padding: 20px;
     display: flex;
@@ -223,9 +223,10 @@ h3{
     align-content: flex-start;
     margin: 0 auto;    
     gap: 4px;
+    margin-bottom: 50px;
 }
 
-h6{
+.grid_1 h6{
     font-size: 12px;
     font-weight: lighter;
     color: #6b727a;
@@ -294,6 +295,47 @@ ul{
 
 .advanced{
     margin-bottom: 18px;
+}
+
+.horizontal{
+    display: flex;
+    justify-content: center;
+    width: calc(100/3 -35px);
+    padding: 10px;
+    margin: 0 auto;
+    border-top: 1px solid #d6d5d9;
+    border-left: 1px solid #d6d5d9;
+    border-right: 1px solid #d6d5d9;
+    gap: 4px;
+}
+
+.horizontal_bottom{
+    border: 1px solid #d6d5d9;
+    position: relative;
+    padding: 20px;
+
+}
+
+.horizontal_bottom > a{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.horizontal_bottom > h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.horizontal_bottom > h5{
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.horizontal_bottom > h6{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: lighter;
 }
 
 
