@@ -367,6 +367,7 @@ ul{
     align-items: center;
     flex-wrap: wrap;
 }
+
 .grid_2_elements{
     width: calc(100% / 3);
     padding: 20px;
